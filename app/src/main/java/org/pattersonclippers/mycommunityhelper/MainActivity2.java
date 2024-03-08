@@ -29,10 +29,16 @@ public class MainActivity2 extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 if(ETpassword.getText().toString().equals("Studentpassword123")){
-                    Toast.makeText(MainActivity2.this, "Welcome");
-                    Intent intent= new Intent()
+                    Toast.makeText(MainActivity2.this, "Welcome", Toast.LENGTH_SHORT);
+                    Intent intent= new Intent(MainActivity2.this, MainActivity3.class);
+                    startActivity(intent);
+
+                }
+                else{
+                    Toast.makeText(MainActivity2.this, "Wrong password, please try again.",Toast.LENGTH_SHORT);
                 }
             }
+
         });
 
 
