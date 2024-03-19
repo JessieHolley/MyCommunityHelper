@@ -19,6 +19,7 @@
         android:id="@+id/iconIB"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:gravity="right"
         android:layout_gravity="left"
         android:contentDescription="@string/title_activity_password.java"
         android:scr="@drawable/icon"
