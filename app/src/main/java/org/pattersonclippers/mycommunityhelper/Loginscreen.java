@@ -9,7 +9,7 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
 
-public class MainActivity2 extends AppCompatActivity {
+public class Loginscreen extends AppCompatActivity {
 
     Button Button2;
 
@@ -29,13 +29,13 @@ public class MainActivity2 extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 if(ETpassword.getText().toString().equals("Studentpassword123")){
-                    Toast.makeText(MainActivity2.this, "Welcome", Toast.LENGTH_SHORT);
-                    Intent intent= new Intent(MainActivity2.this, MainActivity3.class);
+                    Toast.makeText(Loginscreen.this, "Welcome", Toast.LENGTH_SHORT);
+                    Intent intent= new Intent(Loginscreen.this, ClassRoom.class);
                     startActivity(intent);
 
                 }
                 else{
-                    Toast.makeText(MainActivity2.this, "Wrong password, please try again.",Toast.LENGTH_SHORT);
+                    Toast.makeText(Loginscreen.this, "Wrong password, please try again.",Toast.LENGTH_SHORT);
                 }
             }
 

@@ -7,7 +7,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-public class MainActivity extends AppCompatActivity {
+public class HomePage extends AppCompatActivity {
 
     Button Button1;
 
@@ -25,7 +25,7 @@ public class MainActivity extends AppCompatActivity {
         Button1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent myIntent=new Intent(MainActivity.this, MainActivity2.class);
+                Intent myIntent=new Intent(HomePage.this, Loginscreen.class);
 
                 startActivity(myIntent);
             }

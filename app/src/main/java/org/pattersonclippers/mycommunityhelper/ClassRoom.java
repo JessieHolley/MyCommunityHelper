@@ -5,7 +5,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 import android.widget.ImageButton;
 
-public class MainActivity3 extends AppCompatActivity {
+public class ClassRoom extends AppCompatActivity {
 
     ImageButton IconIB;
 
