@@ -10,7 +10,7 @@
     <ImageView
         android:layout_width="344dp"
         android:layout_height="326dp"
-        android:src="@drawable/Patterson_Logo"
+        android:src="@drawable/Patterson_Logo"/>
 
 
 
