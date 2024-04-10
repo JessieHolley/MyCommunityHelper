@@ -21,7 +21,7 @@
             android:label="@string/title_activity_message"
             android:theme="@style/Theme.MyCommunityHelper" />
         <activity
-            android:name=".Admin"
+            android:name=".AdminActivity"
             android:exported="false" />
         <activity
             android:name=".ClassRoom_Code"
