@@ -13,7 +13,7 @@ public class Loginscreen extends AppCompatActivity {
 
     Button Button2;
 
-    EditText ETpassword;
+    EditText ETPassword;
 
     CharSequence message;
 
@@ -23,12 +23,12 @@ public class Loginscreen extends AppCompatActivity {
         setContentView(R.layout.activity_main2);
 
         Button2 = (Button) findViewById(R.id.Button2);
-        ETpassword = (EditText) findViewById(R.id.ETpassword);
+        ETPassword = (EditText) findViewById(R.id.ETpassword);
 
         Button2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                if(ETpassword.getText().toString().equals("Studentpassword123")){
+                if(ETPassword.getText().toString().equals("StudentPassword123")){
                     Toast.makeText(Loginscreen.this, "Welcome", Toast.LENGTH_SHORT);
                     Intent intent= new Intent(Loginscreen.this, ClassRoom.class);
                     startActivity(intent);
@@ -37,7 +37,17 @@ public class Loginscreen extends AppCompatActivity {
                 else{
                     Toast.makeText(Loginscreen.this, "Wrong password, please try again.",Toast.LENGTH_SHORT);
                 }
+                if(ETPassword.getText().toString().equals("AdminPassword123")){
+                    Toast.makeText(Loginscreen.this, "Welcome", Toast.LENGTH_SHORT);
+                    Intent intent= new Intent(Loginscreen.this, AdminActivity.class);
+                    startActivity((intent));
+
+                }
+
+
             }
+
+
 
         });
 
