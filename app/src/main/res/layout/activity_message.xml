@@ -13,7 +13,7 @@
         android:layout_gravity="top"
         android:contentDescription="Justine"
         android:id="@+id/PfpIB"
-        android:src="@drawable/Pfp" />
+        android:src="@drawable/pfp" />
 
 
     <TextView

@@ -25,7 +25,7 @@ public class HomePage extends AppCompatActivity {
         Button1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent myIntent=new Intent(HomePage.this, Loginscreen.class);
+                Intent myIntent=new Intent(HomePage.this, loginscreen.class);
 
                 startActivity(myIntent);
             }

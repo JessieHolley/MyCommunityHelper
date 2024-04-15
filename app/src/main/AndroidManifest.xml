@@ -24,13 +24,13 @@
             android:name=".AdminActivity"
             android:exported="false" />
         <activity
-            android:name=".ClassRoom_Code"
+            android:name=".ClassRoom_CodeActivity"
             android:exported="false" />
         <activity
             android:name=".ClassRoom"
             android:exported="false" />
         <activity
-            android:name=".Loginscreen"
+            android:name=".loginscreen"
             android:exported="false" />
         <activity
             android:name=".Password"
