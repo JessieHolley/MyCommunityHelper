@@ -19,6 +19,6 @@ public class ClassRoom_CodeActivity extends AppCompatActivity {
         setContentView(R.layout.activity_class_room_code);
 
         PasswordET = (EditText) findViewById(R.id.PasswordET);
-        
+        JoinTT = (Button) findViewById(R.id.JoinTT);
     }
 }
