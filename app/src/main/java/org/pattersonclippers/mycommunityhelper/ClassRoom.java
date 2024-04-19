@@ -13,5 +13,7 @@ public class ClassRoom extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main3);
+
+        IconIB = (ImageButton) findViewById(R.id.IconIB);
     }
 }
