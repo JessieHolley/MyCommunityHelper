@@ -7,6 +7,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
+import android.widget.Toast;
 
 public class ClassRoom_CodeActivity extends AppCompatActivity {
 
@@ -24,11 +25,13 @@ public class ClassRoom_CodeActivity extends AppCompatActivity {
 
 
 
-        JoinTT.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                if(PasswordET.getText().toString().equals(""))
-            }
-        });
+        if(PasswordET.getText().toString().equals("Yutabe")){
+            Toast.makeText(ClassRoom_CodeActivity.this, )
+
+        }
+
+
     }
+
+
 }
