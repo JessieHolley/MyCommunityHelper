@@ -32,7 +32,12 @@
 
     <ImageButton
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"/>
+        android:layout_height="wrap_content"
+        android:id="@+id/Ben"
+        android:src="@drawable/pfp_soft"
+        android:scaleX="30"
+        android:scaleY="2"
+        />
 
 
 
