@@ -25,7 +25,7 @@ public class ClassRoom_CodeActivity extends AppCompatActivity {
 
 
 
-        if(PasswordET.getText().toString().equals("Yutabe")){
+        if(PasswordET.getText().toString().equals("")){
             Toast.makeText(ClassRoom_CodeActivity.this, )
 
         }
